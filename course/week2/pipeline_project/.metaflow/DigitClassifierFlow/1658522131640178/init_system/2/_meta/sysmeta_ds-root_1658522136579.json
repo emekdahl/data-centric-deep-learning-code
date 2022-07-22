@@ -1,0 +1,1 @@
+{"flow_id": "DigitClassifierFlow", "run_number": "1658522131640178", "step_name": "init_system", "task_id": "2", "field_name": "ds-root", "type": "ds-root", "value": "/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/.metaflow", "tags": ["attempt_id:0"], "user_name": "gitpod", "ts_epoch": 1658522136579}

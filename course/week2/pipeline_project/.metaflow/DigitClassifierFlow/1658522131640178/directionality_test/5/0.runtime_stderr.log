@@ -1,0 +1,30 @@
+[MFLOG|0|2022-07-22T20:38:01.596991Z|runtime|7c6bd7a9-20b7-4451-8640-4c7b261ba2ff]  0%|          | 0/10 [00:00<?, ?it/s]<flow DigitClassifierFlow step directionality_test> failed:
+[MFLOG|0|2022-07-22T20:38:04.476282Z|runtime|9d3fc47a-ad82-48b8-a649-1a4b9c7a56aa]    Internal error
+[MFLOG|0|2022-07-22T20:38:04.477025Z|runtime|f006e24c-2a97-4920-a191-31358d066e44]Traceback (most recent call last):
+[MFLOG|0|2022-07-22T20:38:04.477170Z|runtime|eee652d2-ffba-4352-b471-64d2ceefd9e2]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/cli.py", line 1102, in main
+[MFLOG|0|2022-07-22T20:38:04.477270Z|runtime|e533e674-3f28-4279-a2d7-ddad820fb9af]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2022-07-22T20:38:04.477369Z|runtime|80735412-e807-4ae8-ab1f-e9c31a36a4f4]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2022-07-22T20:38:04.477467Z|runtime|96ccc2e1-fd75-440f-8c20-262a98055d5e]    return self.main(args, kwargs)
+[MFLOG|0|2022-07-22T20:38:04.890936Z|runtime|6d9cb4df-b22b-4b4e-bce2-2ec2c2baa2a0]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2022-07-22T20:38:04.891160Z|runtime|2debb03c-51b0-44b9-a489-e4a2f516609f]    rv = self.invoke(ctx)
+[MFLOG|0|2022-07-22T20:38:04.891267Z|runtime|26b9ef12-dc1e-46a8-92c2-d7d848cc5858]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2022-07-22T20:38:04.891390Z|runtime|6b2610af-d85d-40ad-b0df-6f4b10d41057]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2022-07-22T20:38:04.891489Z|runtime|8e2d9e70-d1ed-4336-911c-17392304f883]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2022-07-22T20:38:04.891576Z|runtime|e1efe1d8-91ec-4ce2-9b39-e8d1f9b51fe6]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2022-07-22T20:38:04.891735Z|runtime|7c47eef8-383f-4c92-a5d4-11e661a0165c]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2022-07-22T20:38:04.891822Z|runtime|be692d91-6f69-470d-8cf5-d83b67d4839f]    return callback(args, kwargs)
+[MFLOG|0|2022-07-22T20:38:04.891904Z|runtime|80308e7f-e4ec-41db-b5a0-1f43fb04118c]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2022-07-22T20:38:04.891980Z|runtime|8d789d3b-9899-4836-b03e-670111eaaf5e]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2022-07-22T20:38:04.892049Z|runtime|987ce0cc-0f8a-4c51-9b89-ab673643297d]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/cli.py", line 556, in step
+[MFLOG|0|2022-07-22T20:38:04.892125Z|runtime|d55883f9-b64d-4999-8bac-e8881dee5afa]    task.run_step(
+[MFLOG|0|2022-07-22T20:38:04.892209Z|runtime|2c09b35b-ce66-42a6-a101-90661dd7d594]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/task.py", line 548, in run_step
+[MFLOG|0|2022-07-22T20:38:04.892303Z|runtime|461993cf-b718-4948-8706-6266b74e222c]    self._exec_step_function(step_func)
+[MFLOG|0|2022-07-22T20:38:04.892388Z|runtime|429258ab-9c68-4614-918f-c01c61c6a5e8]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/task.py", line 53, in _exec_step_function
+[MFLOG|0|2022-07-22T20:38:04.892485Z|runtime|5a2f5cf6-f27f-4cbf-adba-94bf8fdcd65e]    step_function()
+[MFLOG|0|2022-07-22T20:38:04.892559Z|runtime|f06dc237-5762-4bc6-85fd-9b1101ff3136]  File "flows/directionality_flow.py", line 123, in directionality_test
+[MFLOG|0|2022-07-22T20:38:04.892631Z|runtime|67e29848-f56a-4650-9bb1-99a5db10729e]    test.test(self.trainer, self.system)
+[MFLOG|0|2022-07-22T20:38:04.892709Z|runtime|e267fc6b-f43f-4580-9385-510537418357]  File "/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/src/tests/directionality.py", line 171, in test
+[MFLOG|0|2022-07-22T20:38:04.892786Z|runtime|ceb711f4-6488-46b3-b682-abddc573cd90]    batch_metric = torch.mean(preds_raw == preds_transformed)
+[MFLOG|0|2022-07-22T20:38:04.892859Z|runtime|67ca72e3-9546-4203-8c00-d4c9f857f54f]RuntimeError: mean(): input dtype should be either floating point or complex dtypes. Got Bool instead.
+[MFLOG|0|2022-07-22T20:38:04.892933Z|runtime|c8943cf1-ce56-4dfd-bf7c-9827e0ceffc0]
+[MFLOG|0|2022-07-22T20:38:04.893358Z|runtime|97de161e-fbbf-4aa6-adaa-5283b4abc967]Task failed.
