@@ -1,0 +1,36 @@
+[MFLOG|0|2022-07-22T20:32:52.627278Z|runtime|91e3ef77-4537-4609-a409-f26f760fe5f8]<flow DigitClassifierFlow step regression_test> failed:
+[MFLOG|0|2022-07-22T20:32:52.631399Z|runtime|e5f7bbc4-2c7a-4261-8c85-81769fa2bd21]    Internal error
+[MFLOG|0|2022-07-22T20:32:52.632402Z|runtime|03341a0a-2447-4834-8dc2-5ef5691c8a37]Traceback (most recent call last):
+[MFLOG|0|2022-07-22T20:32:52.632576Z|runtime|382deebb-69bf-41f0-b336-5dbd0af99591]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/cli.py", line 1102, in main
+[MFLOG|0|2022-07-22T20:32:52.632761Z|runtime|2ba821cf-7e98-4195-9b61-21d5934a2c29]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2022-07-22T20:32:52.632951Z|runtime|c9030d40-ced5-480e-8379-bb2754e47f87]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2022-07-22T20:32:52.633077Z|runtime|52d430fe-bd36-4c91-9dad-9c110cc8d087]    return self.main(args, kwargs)
+[MFLOG|0|2022-07-22T20:32:52.935191Z|runtime|2f4df9da-7cca-4dff-bdf6-153945d76a90]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2022-07-22T20:32:52.935389Z|runtime|5304c423-17d3-47ab-b0aa-0d356df10541]    rv = self.invoke(ctx)
+[MFLOG|0|2022-07-22T20:32:52.935499Z|runtime|69223bf1-3038-4873-9fd1-c6311a645686]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2022-07-22T20:32:52.935603Z|runtime|2a327b18-49d0-429c-b7fc-dcc306018907]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2022-07-22T20:32:52.935759Z|runtime|3d83b9f9-429e-40c1-95bf-db5ddb8d22ea]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2022-07-22T20:32:52.935837Z|runtime|b899a528-b982-4738-8e8b-2194daff0ff9]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2022-07-22T20:32:52.935938Z|runtime|2141e6a5-255c-4c13-8e2e-6dbdaaa56682]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2022-07-22T20:32:52.936021Z|runtime|11a2c42c-e76e-4ac5-8a5d-cd0a75c39fcd]    return callback(args, kwargs)
+[MFLOG|0|2022-07-22T20:32:52.936091Z|runtime|d891a8b8-aca3-4f68-831d-fb2fab3f3b69]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2022-07-22T20:32:52.936160Z|runtime|e48f8e22-cee7-483c-ae84-787a20855bb4]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2022-07-22T20:32:52.936229Z|runtime|ef38bfc3-ab08-4fb5-b78e-b743430f6402]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/cli.py", line 556, in step
+[MFLOG|0|2022-07-22T20:32:52.936304Z|runtime|cce3c397-193f-4d3a-84a1-61addcbe5292]    task.run_step(
+[MFLOG|0|2022-07-22T20:32:52.936380Z|runtime|97945547-0c96-4c3f-bce4-ee093c59a12c]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/task.py", line 548, in run_step
+[MFLOG|0|2022-07-22T20:32:52.936445Z|runtime|5ef24a4f-4308-4f66-9ec1-b5539a13e841]    self._exec_step_function(step_func)
+[MFLOG|0|2022-07-22T20:32:52.936514Z|runtime|218d24de-d349-483e-b4cc-ff38c233cbab]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/metaflow/task.py", line 53, in _exec_step_function
+[MFLOG|0|2022-07-22T20:32:52.936586Z|runtime|c7881e12-0232-465a-8e18-3b40e97b71e1]    step_function()
+[MFLOG|0|2022-07-22T20:32:52.936662Z|runtime|a6370d80-ee95-4f8b-a07e-3f242781a5ef]  File "flows/regression_flow.py", line 122, in regression_test
+[MFLOG|0|2022-07-22T20:32:52.936729Z|runtime|4f8efe96-e2a8-463e-b268-f14eb5dbc915]    test = MNISTRegressionTest()
+[MFLOG|0|2022-07-22T20:32:52.936798Z|runtime|ee0c94f2-5dc8-4b00-8c48-48556ae85d07]  File "/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/src/tests/regression.py", line 144, in __init__
+[MFLOG|0|2022-07-22T20:32:52.936870Z|runtime|b222d23e-318f-4567-a72f-a03391a81a7d]    data = torch.load(join(test_dir, 'test-data.pt'))
+[MFLOG|0|2022-07-22T20:32:52.936938Z|runtime|38e3833b-ba2c-4980-be0c-ed38918683a8]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+[MFLOG|0|2022-07-22T20:32:52.937004Z|runtime|fb996fc1-06cb-4d75-9a65-a7d45f5d6e8d]    with _open_file_like(f, 'rb') as opened_file:
+[MFLOG|0|2022-07-22T20:32:52.937069Z|runtime|2b8b88a0-0f9a-4775-b237-d8b4066690d5]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+[MFLOG|0|2022-07-22T20:32:52.937135Z|runtime|6c924449-e66d-44df-8caf-1ab9532c43aa]    return _open_file(name_or_buffer, mode)
+[MFLOG|0|2022-07-22T20:32:52.937199Z|runtime|0124f231-5b7a-4d16-86b5-677bcd4771f9]  File "/home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+[MFLOG|0|2022-07-22T20:32:52.937258Z|runtime|bc1efc3f-028d-441d-8142-5693fbed9fbb]    super(_open_file, self).__init__(open(name, mode))
+[MFLOG|0|2022-07-22T20:32:52.937323Z|runtime|657cec12-bcea-41e7-a22b-fbc8b67f1d91]FileNotFoundError: [Errno 2] No such file or directory: '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/src/tests/images/regression/test-data.pt'
+[MFLOG|0|2022-07-22T20:32:52.937458Z|runtime|5e13e80d-424b-4f36-bf8e-dd359ba27128]
+[MFLOG|0|2022-07-22T20:32:52.937864Z|runtime|a530c57a-38c9-4edc-8b9a-ac6fe5445d65]Task failed.

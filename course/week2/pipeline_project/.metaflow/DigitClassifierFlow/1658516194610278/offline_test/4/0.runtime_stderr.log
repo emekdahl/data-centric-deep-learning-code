@@ -1,0 +1,2 @@
+[MFLOG|0|2022-07-22T18:59:42.613672Z|runtime|8838dad2-9358-4944-b98b-f612d6f1d87e]Restoring states from the checkpoint path at /workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=6-step=10500.ckpt
+[MFLOG|0|2022-07-22T18:59:42.622098Z|runtime|bc32ba05-0ba3-451f-a2f5-ff8fb9e77f09]Loaded model weights from checkpoint at /workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=6-step=10500.ckpt

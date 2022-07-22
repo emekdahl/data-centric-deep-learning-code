@@ -1,0 +1,23 @@
+[MFLOG|0|2022-07-22T19:11:09.036226Z|runtime|91607ef9-34fb-41b4-9a21-a0c1583e72b9]GPU available: False, used: False
+[MFLOG|0|2022-07-22T19:12:05.468457Z|runtime|bccd7f24-53fe-4772-9b42-10d51d25769b]TPU available: False, using: 0 TPU cores
+[MFLOG|0|2022-07-22T19:12:05.469160Z|runtime|77712724-75d3-4db2-9087-2201bc940d16]IPU available: False, using: 0 IPUs
+[MFLOG|0|2022-07-22T19:12:05.469718Z|runtime|1b7f9580-fd10-4dc2-a29c-bc63de6bed84]HPU available: False, using: 0 HPUs
+[MFLOG|0|2022-07-22T19:12:05.470182Z|runtime|18a06bb5-2772-431c-9902-618c3d48c393]
+[MFLOG|0|2022-07-22T19:12:05.470640Z|runtime|32715493-ff95-4da0-a543-82e7f2490cd5]  | Name  | Type       | Params
+[MFLOG|0|2022-07-22T19:12:05.471171Z|runtime|dbc47eeb-e990-4163-9bb9-94a370cd81c1]-------------------------------------
+[MFLOG|0|2022-07-22T19:12:05.484634Z|runtime|fde45aa8-f660-4afd-818f-9b1d3daf121a]0 | model | Sequential | 12.7 K
+[MFLOG|0|2022-07-22T19:12:05.489264Z|runtime|e699a87b-1f57-4911-853f-6a61563aef37]-------------------------------------
+[MFLOG|0|2022-07-22T19:12:05.550575Z|runtime|7eac6bd4-27db-42d7-846f-f13dd72d1761]12.7 K    Trainable params
+[MFLOG|0|2022-07-22T19:12:05.550992Z|runtime|804db428-a1ed-4d61-bdb7-e2aa78ebde19]0         Non-trainable params
+[MFLOG|0|2022-07-22T19:12:05.551273Z|runtime|e43a0aa7-2cd7-4479-8f5c-c84ab60807d0]12.7 K    Total params
+[MFLOG|0|2022-07-22T19:12:05.551638Z|runtime|61600e5f-6b3b-4906-9ff2-37f9875f2797]0.051     Total estimated model params size (MB)
+[MFLOG|0|2022-07-22T19:12:05.552900Z|runtime|e1af0d13-f6ea-431c-a37c-4d990fcdb086]Epoch 0, global step 1500: 'dev_loss' reached 0.29354 (best 0.29354), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=0-step=1500.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:12:50.651312Z|runtime|606cafa2-e8c0-45be-913e-2a52b24befd4]Epoch 1, global step 3000: 'dev_loss' reached 0.24681 (best 0.24681), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=1-step=3000.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:14:03.686232Z|runtime|cbc453f7-64c1-4ba1-92a3-f6789625b81b]Epoch 2, global step 4500: 'dev_loss' reached 0.23060 (best 0.23060), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=2-step=4500.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:15:13.084659Z|runtime|f6fb68d2-65fe-4c32-8d79-931b5c7e16b4]Epoch 3, global step 6000: 'dev_loss' reached 0.22871 (best 0.22871), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=3-step=6000.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:16:20.244259Z|runtime|72368c9f-9623-4fcd-afbb-17dab40979b4]Epoch 4, global step 7500: 'dev_loss' reached 0.22836 (best 0.22836), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=4-step=7500.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:17:33.486623Z|runtime|1b6972a9-14b0-4494-9677-89f1e181e366]Epoch 5, global step 9000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:18:41.140773Z|runtime|cee24e00-3d39-4b56-94a4-6db87afa1d43]Epoch 6, global step 10500: 'dev_loss' reached 0.22713 (best 0.22713), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=6-step=10500.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:19:48.210603Z|runtime|d7af219b-6186-430c-9207-b25686eacac8]Epoch 7, global step 12000: 'dev_loss' reached 0.20860 (best 0.20860), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width16/epoch=7-step=12000.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:21:06.555900Z|runtime|d724e92c-c418-4355-87c0-259000496210]Epoch 8, global step 13500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:22:22.091330Z|runtime|20d991d9-cb33-42f9-8858-c62c26e72f9a]Epoch 9, global step 15000: 'dev_loss' was not in top 1

@@ -1,0 +1,20 @@
+[MFLOG|0|2022-07-22T18:56:44.058772Z|runtime|0e86cf0a-093b-4ec4-b976-6e4b24ccac1e]Missing logger folder: /workspace/data-centric-deep-learning-code/course/week2/pipeline_project/lightning_logs
+[MFLOG|0|2022-07-22T18:56:44.060816Z|runtime|293b7052-62dd-4d76-8531-389983964116]
+[MFLOG|0|2022-07-22T18:57:13.732943Z|runtime|1334df48-e8b3-4819-af28-c3fdaab2e0db]  | Name  | Type   | Params
+[MFLOG|0|2022-07-22T18:57:13.733281Z|runtime|7ae7ee32-d7b9-47a9-a495-7c67ea36c735]---------------------------------
+[MFLOG|0|2022-07-22T18:57:13.733447Z|runtime|d703fe90-44a7-444d-9989-ece072d03da7]0 | model | Linear | 7.9 K 
+[MFLOG|0|2022-07-22T18:57:13.733584Z|runtime|14d769f3-9015-4312-a86f-9950b0694087]---------------------------------
+[MFLOG|0|2022-07-22T18:57:13.733731Z|runtime|4c1b8350-42be-4113-a652-2efe1afcbfeb]7.9 K     Trainable params
+[MFLOG|0|2022-07-22T18:57:13.733865Z|runtime|5a37318a-f9dd-4886-b9e1-6b91a48f391f]0         Non-trainable params
+[MFLOG|0|2022-07-22T18:57:13.733971Z|runtime|b08ba022-9583-460e-baf8-b9625c8920f2]7.9 K     Total params
+[MFLOG|0|2022-07-22T18:57:13.734093Z|runtime|43df44ab-9b7b-4d32-9f00-c80d548528cf]0.031     Total estimated model params size (MB)
+[MFLOG|0|2022-07-22T18:57:13.734208Z|runtime|2b2d540e-9f71-488c-b98f-9d19c72e9cb2]Epoch 0, global step 1500: 'dev_loss' reached 0.31711 (best 0.31711), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=0-step=1500.ckpt' as top 1
+[MFLOG|0|2022-07-22T18:57:30.371443Z|runtime|f055cee9-4666-4c15-ab21-dc59e7f2d78a]Epoch 1, global step 3000: 'dev_loss' reached 0.31534 (best 0.31534), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=1-step=3000.ckpt' as top 1
+[MFLOG|0|2022-07-22T18:57:48.055784Z|runtime|e52c1833-efed-49ef-916b-c4bfba16f3ba]Epoch 2, global step 4500: 'dev_loss' reached 0.31413 (best 0.31413), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=2-step=4500.ckpt' as top 1
+[MFLOG|0|2022-07-22T18:58:05.536720Z|runtime|6caa665b-1933-4703-a9e9-117510673304]Epoch 3, global step 6000: 'dev_loss' reached 0.31197 (best 0.31197), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=3-step=6000.ckpt' as top 1
+[MFLOG|0|2022-07-22T18:58:23.045033Z|runtime|d8634607-18c7-4050-bc3b-bde440b7531e]Epoch 4, global step 7500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T18:58:41.968437Z|runtime|405114a8-dafd-403a-866e-ca50550cfd0a]Epoch 5, global step 9000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T18:58:58.449675Z|runtime|12bf3191-3f13-4e03-b222-94988f90f346]Epoch 6, global step 10500: 'dev_loss' reached 0.30539 (best 0.30539), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/train_flow/epoch=6-step=10500.ckpt' as top 1
+[MFLOG|0|2022-07-22T18:59:14.766563Z|runtime|0336b1ad-85c1-45d5-a174-a0658bcf7d13]Epoch 7, global step 12000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T18:59:32.178459Z|runtime|d4556b74-f275-4054-b708-e364fdb26219]Epoch 8, global step 13500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T18:59:34.480568Z|runtime|3bd927b9-76de-4096-a55c-23ba2a02289d]Epoch 9, global step 15000: 'dev_loss' was not in top 1

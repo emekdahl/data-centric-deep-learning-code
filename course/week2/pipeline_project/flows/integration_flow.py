@@ -45,7 +45,7 @@ class DigitClassifierFlow(FlowSpec):
     np.random.seed(42)
     torch.manual_seed(42)
 
-    wandb.init()  # init wandb run
+    # wandb.init()  # init wandb run
 
     self.next(self.init_system)
 
@@ -67,17 +67,17 @@ class DigitClassifierFlow(FlowSpec):
       verbose = True,
     )
 
-    wandb_logger = WandbLogger(
-      project = config.wandb.project, 
-      offline = False,
-      entity = config.wandb.entity, 
-      name = 'mnist', 
-      save_dir = 'logs/wandb',
-      config = config)
+    # wandb_logger = WandbLogger(
+    #   project = config.wandb.project, 
+    #   offline = False,
+    #   entity = config.wandb.entity, 
+    #   name = 'mnist', 
+    #   save_dir = 'logs/wandb',
+    #   config = config)
 
     trainer = Trainer(
       max_epochs = config.system.optimizer.max_epochs,
-      logger = wandb_logger,
+      # logger = wandb_logger,
       callbacks = [checkpoint_callback])
 
     self.dm = dm
@@ -92,7 +92,7 @@ class DigitClassifierFlow(FlowSpec):
 
     self.trainer.fit(self.system, self.dm)
 
-    wandb.finish()  # close wandb run
+    # wandb.finish()  # close wandb run
 
     self.next(self.offline_test)
 

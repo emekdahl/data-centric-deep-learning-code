@@ -1,0 +1,73 @@
+config: !!python/object/apply:dotmap.DotMap
+  dictitems:
+    system: &id004 !!python/object/apply:dotmap.DotMap
+      dictitems:
+        data: &id001 !!python/object/apply:dotmap.DotMap
+          dictitems:
+            root: ./artifacts/data/mnist
+          state:
+            _dynamic: true
+            _map: !!python/object/apply:collections.OrderedDict
+            - - - root
+                - ./artifacts/data/mnist
+            _prevent_method_masking: false
+        model: &id002 !!python/object/apply:dotmap.DotMap
+          dictitems:
+            name: mlp
+            width: 32
+          state:
+            _dynamic: true
+            _map: !!python/object/apply:collections.OrderedDict
+            - - - name
+                - mlp
+              - - width
+                - 32
+            _prevent_method_masking: false
+        optimizer: &id003 !!python/object/apply:dotmap.DotMap
+          dictitems:
+            batch_size: 32
+            lr: 0.004
+            max_epochs: 10
+          state:
+            _dynamic: true
+            _map: !!python/object/apply:collections.OrderedDict
+            - - - max_epochs
+                - 10
+              - - batch_size
+                - 32
+              - - lr
+                - 0.004
+            _prevent_method_masking: false
+        save_dir: ./artifacts/ckpts/hparam_flow
+      state:
+        _dynamic: true
+        _map: !!python/object/apply:collections.OrderedDict
+        - - - data
+            - *id001
+          - - model
+            - *id002
+          - - optimizer
+            - *id003
+          - - save_dir
+            - ./artifacts/ckpts/hparam_flow
+        _prevent_method_masking: false
+    wandb: &id005 !!python/object/apply:dotmap.DotMap
+      dictitems:
+        entity: <USERNAME>
+        project: hparam_flow
+      state:
+        _dynamic: true
+        _map: !!python/object/apply:collections.OrderedDict
+        - - - project
+            - hparam_flow
+          - - entity
+            - <USERNAME>
+        _prevent_method_masking: false
+  state:
+    _dynamic: true
+    _map: !!python/object/apply:collections.OrderedDict
+    - - - system
+        - *id004
+      - - wandb
+        - *id005
+    _prevent_method_masking: false

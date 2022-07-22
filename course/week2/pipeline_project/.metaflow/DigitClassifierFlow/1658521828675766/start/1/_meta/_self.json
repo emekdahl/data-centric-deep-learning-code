@@ -1,0 +1,1 @@
+{"run_number": "1658521828675766", "step_name": "start", "task_id": "1", "flow_id": "DigitClassifierFlow", "user_name": "gitpod", "tags": [], "system_tags": ["metaflow_version:2.6.0", "python_version:3.8.13", "user:gitpod", "runtime:dev", "date:2022-07-22"], "ts_epoch": 1658521828680}

@@ -1,0 +1,16 @@
+[MFLOG|0|2022-07-22T20:30:32.908413Z|runtime|e64c419e-da8d-459d-8341-47a01b2684ff]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:33.033470Z|runtime|0e3f1939-f6f2-4c51-b60e-038a11ef7af6]Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ./artifacts/data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:33.369720Z|runtime|b3f8d18e-28d1-4bba-ac85-c6e862d6b186]Extracting ./artifacts/data/mnist/MNIST/raw/train-images-idx3-ubyte.gz to ./artifacts/data/mnist/MNIST/raw
+[MFLOG|0|2022-07-22T20:30:33.620305Z|runtime|ca820e13-1cb0-49cb-bfbe-673356c9e902]
+[MFLOG|0|2022-07-22T20:30:33.705595Z|runtime|aeaf4e09-70b6-4701-881e-327a671d10d7]Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:33.705771Z|runtime|6b0f8fcb-fbc2-4384-ad6e-cc9fd3e9d260]Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ./artifacts/data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:33.799547Z|runtime|70bbc05b-7e49-4644-97d4-237f46b05289]Extracting ./artifacts/data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz to ./artifacts/data/mnist/MNIST/raw
+[MFLOG|0|2022-07-22T20:30:33.800132Z|runtime|22345f96-2a2e-4a4b-8366-4a15ee0f580f]
+[MFLOG|0|2022-07-22T20:30:33.864982Z|runtime|4f0b2291-3f80-4b26-9bc3-d8838ad57901]Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:33.865211Z|runtime|86d1f0b9-90f6-4f9b-a8a4-8a0ee236b662]Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ./artifacts/data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:34.076385Z|runtime|64f41c1a-cf57-4189-bbe1-f976fcb15716]Extracting ./artifacts/data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz to ./artifacts/data/mnist/MNIST/raw
+[MFLOG|0|2022-07-22T20:30:34.118818Z|runtime|dc64f923-2a99-473f-b787-d970d844a584]
+[MFLOG|0|2022-07-22T20:30:34.197285Z|runtime|5f10a682-7aa3-42b4-b5f8-8953f3c05cf7]Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:34.197605Z|runtime|5c130a69-99ca-40e4-b772-67018161655d]Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ./artifacts/data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+[MFLOG|0|2022-07-22T20:30:34.259503Z|runtime|722ab1a2-9c62-46e5-b44e-e79d99b9ddaf]Extracting ./artifacts/data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./artifacts/data/mnist/MNIST/raw
+[MFLOG|0|2022-07-22T20:30:34.259844Z|runtime|c672d7c1-ee32-4bdd-a00d-acac0c7523a1]

@@ -1,0 +1,23 @@
+[MFLOG|0|2022-07-22T19:09:43.773364Z|runtime|10598def-9e53-40df-857d-a6cdb1f586fe]GPU available: False, used: False
+[MFLOG|0|2022-07-22T19:09:43.776032Z|runtime|1831c6b6-c856-4fa1-b715-a36e728b7137]TPU available: False, using: 0 TPU cores
+[MFLOG|0|2022-07-22T19:09:43.776280Z|runtime|c137a240-7012-4da1-91b8-84078a9a87cc]IPU available: False, using: 0 IPUs
+[MFLOG|0|2022-07-22T19:09:43.776461Z|runtime|ae4b420b-9edc-45bd-a3eb-a48a45f5329c]HPU available: False, using: 0 HPUs
+[MFLOG|0|2022-07-22T19:09:43.776680Z|runtime|c6936235-086d-4846-9468-2a3f0eab2edd]
+[MFLOG|0|2022-07-22T19:12:05.468893Z|runtime|92ea1f20-46ad-4b2f-9019-30d17bab1c2b]  | Name  | Type       | Params
+[MFLOG|0|2022-07-22T19:12:05.469512Z|runtime|1ec0efa9-acf0-441f-a2c7-2a81cb0f4400]-------------------------------------
+[MFLOG|0|2022-07-22T19:12:05.469992Z|runtime|44c5da27-6ae7-4c1d-afba-44ccb2c36b8f]0 | model | Sequential | 50.9 K
+[MFLOG|0|2022-07-22T19:12:05.470450Z|runtime|1d59b7aa-7725-491e-8da0-e243073dfe8e]-------------------------------------
+[MFLOG|0|2022-07-22T19:12:05.470903Z|runtime|84452360-3356-4349-b108-d2607a0ba0b3]50.9 K    Trainable params
+[MFLOG|0|2022-07-22T19:12:05.484432Z|runtime|264eb18f-f5bd-4099-9876-e150f8c78984]0         Non-trainable params
+[MFLOG|0|2022-07-22T19:12:05.489040Z|runtime|d5c40865-5f6b-4377-84a2-8a3cf4e57e55]50.9 K    Total params
+[MFLOG|0|2022-07-22T19:12:05.550190Z|runtime|b41157d0-b096-493a-8594-1593afb8796b]0.204     Total estimated model params size (MB)
+[MFLOG|0|2022-07-22T19:12:05.550792Z|runtime|49f725db-0a6e-4e68-bd31-09eb9cb9e3a9]Epoch 0, global step 1500: 'dev_loss' reached 0.15691 (best 0.15691), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width64/epoch=0-step=1500.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:13:06.970454Z|runtime|681df95e-5457-43f6-aefa-0ad62c037aaa]Epoch 1, global step 3000: 'dev_loss' reached 0.13726 (best 0.13726), saving model to '/workspace/data-centric-deep-learning-code/course/week2/pipeline_project/artifacts/ckpts/hparam_flow/width64/epoch=1-step=3000.ckpt' as top 1
+[MFLOG|0|2022-07-22T19:14:25.085543Z|runtime|9e52da0d-7b41-436b-bf98-960d35f6a72f]Epoch 2, global step 4500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:15:31.714951Z|runtime|4a2e88c3-2fa8-45fa-97a8-a2256a62a46d]Epoch 3, global step 6000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:16:43.118414Z|runtime|fde0f2c0-c0f3-4cb5-83f7-4bca87644181]Epoch 4, global step 7500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:17:52.652351Z|runtime|d49bec4d-7e9c-4802-8eb6-3e8eb557d8c5]Epoch 5, global step 9000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:19:01.114795Z|runtime|af470d87-0132-46e6-8214-026c5c90869d]Epoch 6, global step 10500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:20:07.755952Z|runtime|c0dc4a38-1d3b-4713-bc2d-15077a857cd9]Epoch 7, global step 12000: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:21:37.093947Z|runtime|84186cc7-c8de-4144-8cf4-3242018696e2]Epoch 8, global step 13500: 'dev_loss' was not in top 1
+[MFLOG|0|2022-07-22T19:22:24.956505Z|runtime|1260391b-d71a-4fcf-8195-f5a43312420f]Epoch 9, global step 15000: 'dev_loss' was not in top 1

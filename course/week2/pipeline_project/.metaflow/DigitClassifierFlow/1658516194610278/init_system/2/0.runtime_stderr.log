@@ -1,0 +1,4 @@
+[MFLOG|0|2022-07-22T18:56:39.832468Z|runtime|d8d62e21-994c-465a-9384-0bc3b5ba742c]GPU available: False, used: False
+[MFLOG|0|2022-07-22T18:56:39.832832Z|runtime|5a1aef60-d44a-4624-b1dc-9ba802ba01da]TPU available: False, using: 0 TPU cores
+[MFLOG|0|2022-07-22T18:56:39.833050Z|runtime|848eb315-5e4a-4839-beb6-ab3f9eb36600]IPU available: False, using: 0 IPUs
+[MFLOG|0|2022-07-22T18:56:41.540244Z|runtime|d8c35934-eebd-4f8d-aca6-4b191bf5c421]HPU available: False, using: 0 HPUs

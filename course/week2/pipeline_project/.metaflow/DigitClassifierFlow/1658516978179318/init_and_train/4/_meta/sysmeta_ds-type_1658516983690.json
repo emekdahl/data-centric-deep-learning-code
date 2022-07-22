@@ -1,0 +1,1 @@
+{"flow_id": "DigitClassifierFlow", "run_number": "1658516978179318", "step_name": "init_and_train", "task_id": "4", "field_name": "ds-type", "type": "ds-type", "value": "local", "tags": ["attempt_id:0"], "user_name": "gitpod", "ts_epoch": 1658516983690}
